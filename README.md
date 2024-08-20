@@ -20,7 +20,7 @@ Thêm vào framework 2-D trống + thêm phần chú thích cách thức vận h
 > Đây là convergent phase, nơi mà những findings ở trên được hệ thống hóa để tìm ra root cause hay core problem
 > Những nhiệm vụ cần thực hiện:
 > <br> + Vẽ issue tree => root cause
-> <br> + Viết 1 câu summary
+> <br> + Viết 1 câu summary (prblem statement)
 ## 3. Develop phase
 > Đây là divergent phase, open để tìm kiếm đa dạng những materials, những cách tiếp cận innovative để phát triển solution
 ## 4. Deliver phase
