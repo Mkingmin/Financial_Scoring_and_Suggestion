@@ -14,7 +14,7 @@ Thêm vào framework 2-D trống + thêm phần chú thích cách thức vận h
 > Đây là divergent phase, nơi mà các thông tin, những phân tích và kết quả phân tích được tổng hợp một cách cởi mở
 > - Những phân tích cần được thực hiện trong giai đoạn này bao gồm:
 >   <br> + Partner demand elicit => summary 1 (tập trung bóc tách những "sub problems")
->   <br> + Customer behavior analysis => summary 2 (insights, facts của target customer)
+>   <br> + Customer behavior analysis => summary 2 (tập trung vào tìm kiếm sâu problem mà user đang gặp phải => Social listening technique)
 >   <br> + Competitive analysis => summary 3 (đối thủ đang làm gì => những thách thức gì đang chờ)
 ## 2. Define phase
 > Đây là convergent phase, nơi mà những findings ở trên được hệ thống hóa để tìm ra root cause hay core problem
