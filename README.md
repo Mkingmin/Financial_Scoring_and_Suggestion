@@ -42,3 +42,5 @@ Thêm ảnh framework 2-D đã được fill hoàn chỉnh tất cả nội dung
 > - Chọn biến, Logic trong việc tạo relationship giữa các biến
 > - Chọn train dataset, test dataset
 `T  ếp tục thực hiện các bước tiếp theo dựa trên working flow chung của ML => tham khảo flow tại đây: https://www.datacamp.com/blog/a-beginner-s-guide-to-the-machine-learning-workflow`
+# How to intergrate solution to partner
+Trình bày, mô tả logic chuyển giao và vai trò của các bên liên quan trong quá trình chuyển giao công nghệ khi bán nó cho partner
