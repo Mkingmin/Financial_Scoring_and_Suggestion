@@ -7,7 +7,8 @@ Trong BỐI CẢNH này, những ĐỐI TƯỢNG này phải đối mặt với 
 <br>
 _Executive summary of Financial Scoring mock project_
 # Problem (Inital Problem)
-Giá trị CLV giảm đối với các tổ chức tài chính, tổ chức tín dụng. Số lượng khách hàng duyệt sản phẩm tài chính, tín dụng không thành công tăng và tỷ lệ quay trở lại giảm
+Giá trị CLV giảm đối với các tổ chức tài chính, tổ chức tín dụng, do Số lượng khách hàng duyệt sản phẩm tài chính, tín dụng không thành công tăng và tỷ lệ quay trở lại giảm trong category đăng ký sản phẩm thông qua ứng dụng ngân hàng số. Nỗ lực CSKH tăng lên nhưng không cải thiện được tỷ lệ quay lại của customer
+
 # Solution development
 Thêm vào framework 2-D trống + thêm phần chú thích cách thức vận hành và cách thức framework này được ứng dụng vào mock project này <br>
 => thêm hình tại đây
