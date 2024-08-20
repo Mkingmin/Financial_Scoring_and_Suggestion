@@ -6,7 +6,8 @@ Trong BỐI CẢNH này, những ĐỐI TƯỢNG này phải đối mặt với 
 ![Executive summary of Financial Scoring mock project](https://github.com/user-attachments/assets/4f3776e1-9d8e-4fc3-b78e-9db3e5fc2be8)
 <br>
 _Executive summary of Financial Scoring mock project_
-
+# Problem (Inital Problem)
+Giá trị CLV giảm đối với các tổ chức tài chính, tổ chức tín dụng. Số lượng khách hàng duyệt sản phẩm tài chính, tín dụng không thành công tăng và tỷ lệ quay trở lại giảm
 # Solution development
 Thêm vào framework 2-D trống + thêm phần chú thích cách thức vận hành và cách thức framework này được ứng dụng vào mock project này <br>
 => thêm hình tại đây
