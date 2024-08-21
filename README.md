@@ -7,11 +7,12 @@ Trong BỐI CẢNH này, những ĐỐI TƯỢNG này phải đối mặt với 
 <br>
 _Executive summary of Financial Scoring mock project_
 # Problem (Inital Problem)
-Giá trị CLV giảm đối với các tổ chức tài chính, tổ chức tín dụng, do Số lượng khách hàng duyệt sản phẩm tài chính, tín dụng không thành công tăng và tỷ lệ quay trở lại giảm trong category đăng ký sản phẩm thông qua ứng dụng ngân hàng số. Nỗ lực CSKH tăng lên nhưng không cải thiện được tỷ lệ quay lại của customer
+The CLV value (Customer Lifetime Value) decreases for financial institutions and credit organizations due to the increasing number of customers being rejected for financial and credit products, coupled with a declining return rate of digital banking applications. Efforts in customer service have increased, but they have not improved the return rate of customers.
 
 # Solution development
 Thêm vào framework 2-D trống + thêm phần chú thích cách thức vận hành và cách thức framework này được ứng dụng vào mock project này <br>
 => thêm hình tại đây
+<br> description tại đây
 ## 1. Dicover phase
 > Đây là divergent phase, nơi mà các thông tin, những phân tích và kết quả phân tích được tổng hợp một cách cởi mở
 > - Những phân tích cần được thực hiện trong giai đoạn này bao gồm:
@@ -25,6 +26,7 @@ Thêm vào framework 2-D trống + thêm phần chú thích cách thức vận h
 > <br> + Viết 1 câu summary (prblem statement)
 ## 3. Develop phase
 > Đây là divergent phase, open để tìm kiếm đa dạng những materials, những cách tiếp cận innovative để phát triển solution
+> Thực hiện customer behavior analysis
 ## 4. Deliver phase
 > Đây là convergent phase, nhiệm vụ trong giai đoạn này là hệ thống hóa những idea và thông tin tổng hợp được ở trên để xác định solution cụ thể
 > Những yếu tố cần xác định trong phase này:
@@ -35,7 +37,7 @@ Thêm vào framework 2-D trống + thêm phần chú thích cách thức vận h
 Thêm ảnh framework 2-D đã được fill hoàn chỉnh tất cả nội dung trong các phase
 # Solution deployment
 ## Technology that was employed
-> - Công nghệ gì được sử dụng
+> - Công nghệ gì được sử dụng - algorithm ML nào là phù hợp nhất?
 > - Tại sao chọn nó?
 ## Logic of execution
 ### Modelling
