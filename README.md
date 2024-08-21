@@ -7,7 +7,7 @@ Trong BỐI CẢNH này, những ĐỐI TƯỢNG này phải đối mặt với 
 <br>
 _Executive summary of Financial Scoring mock project_
 # Problem (Inital Problem)
-The CLV value (Customer Lifetime Value) decreases for financial and credit enterprises due to the increasing number of customers being rejected for financial and credit products, coupled with a declining return rate of digital banking applications. Efforts in customer service have increased, but they have not improved the return rate of customers.
+The CLV value (Customer Lifetime Value) decreases for digital financial and credit enterprises due to the increasing number of customers being rejected for financial and credit products, esprcially personal loans and credit cards. Efforts in customer service have increased, but they have not improved the number of successful applications of financial products.
 
 # Solution development
 Thêm vào framework 2-D trống + thêm phần chú thích cách thức vận hành và cách thức framework này được ứng dụng vào mock project này <br>
