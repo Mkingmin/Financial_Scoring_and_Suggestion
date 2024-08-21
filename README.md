@@ -48,6 +48,8 @@ Thêm ảnh framework 2-D đã được fill hoàn chỉnh tất cả nội dung
 - Technical objectives:
 <br> + Đảm bảo tính khả thi về mặt technical
 <br> + Chi phí ứng dụng công nghệ có khả thi không?
+## Financial score evaluation
+Chọn thang đo để tính financial score
 ## Technology that was employed
 > - Công nghệ gì được sử dụng - algorithm ML nào là phù hợp nhất?
 > - Tại sao chọn nó?
