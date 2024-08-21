@@ -47,7 +47,7 @@ Thêm ảnh framework 2-D đã được fill hoàn chỉnh tất cả nội dung
 > - Công nghệ gì được sử dụng - algorithm ML nào là phù hợp nhất?
 > - Tại sao chọn nó?
 ### Logic of Decision tree algorithm
-Thêm hình ảnh vào
+Thêm hình ảnh vào. Tham khảo tại [Decision tree](https://www.datacamp.com/tutorial/decision-tree-classification-python)
 <br> Thêm chú thích (nếu cần) cho hình ảnh ở trên
 ## Data preparation
 - Dùng sample dataset có nguồn từ đâu? Có điểm gì đặc biệt trong tập dataset này không?
