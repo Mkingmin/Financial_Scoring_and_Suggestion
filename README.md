@@ -10,9 +10,14 @@ _Executive summary of Financial Scoring mock project_
 The CLV value (Customer Lifetime Value) decreases for digital financial and credit enterprises due to the increasing number of customers being rejected for financial and credit products, esprcially personal loans and credit cards. Efforts in customer service have increased, but they have not improved the number of successful applications of financial products.
 
 # Solution development
-Thêm vào framework 2-D trống + thêm phần chú thích cách thức vận hành và cách thức framework này được ứng dụng vào mock project này <br>
-=> thêm hình tại đây
-<br> description tại đây
+In the solution development stage, I use **Double Diamond framework**, which switches respectively between **Divergence** (open, innovative status) and **Convergence** (focus, strategic status) in order to define root cause of the problems and create the best solution to resolve the root cause. I go through 4 phases to develop the disruptive and appropriate solution:
+- Discover phase
+- Define phase
+- Develop phase
+- Deliver phase
+![Initial Double Diamond framework](https://github.com/user-attachments/assets/a8c59dcb-3afc-4144-b929-e724da9ea3c0)
+<br> _Double Diamond framework that is employed to develop solution_
+
 ## 1. Dicover phase
 > Đây là divergent phase, nơi mà các thông tin, những phân tích và kết quả phân tích được tổng hợp một cách cởi mở
 > - Những phân tích cần được thực hiện trong giai đoạn này bao gồm:
