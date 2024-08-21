@@ -35,14 +35,32 @@ Thêm vào framework 2-D trống + thêm phần chú thích cách thức vận h
 > <br> + Những giá trị này giải quyết được problem như thế nào? Tại sao solution này phù hợp?
 ## Solution summary
 Thêm ảnh framework 2-D đã được fill hoàn chỉnh tất cả nội dung trong các phase
-# Solution deployment
+# Executive plan
+## Objectives
+- Business objectives:
+<br> + Giải quyết được root cause để tạo ra GIÁ TRỊ (có thể lượng hóa)
+<br> + Tăng những giá trị nhất định trong UX: tăng return rate, giảm "cảm xúc tiêu cực" (term in customer behavior/Marketing) khi liên tục bị từ chối hồ sơ
+- Technical objectives:
+<br> + Đảm bảo tính khả thi về mặt technical
+<br> + Chi phí ứng dụng công nghệ có khả thi không?
 ## Technology that was employed
 > - Công nghệ gì được sử dụng - algorithm ML nào là phù hợp nhất?
 > - Tại sao chọn nó?
-## Logic of execution
-### Modelling
+### Logic of Decision tree algorithm
+Thêm hình ảnh vào
+<br> Thêm chú thích (nếu cần) cho hình ảnh ở trên
+## Data preparation
+- Dùng sample dataset có nguồn từ đâu? Có điểm gì đặc biệt trong tập dataset này không?
+- Feature engineering
+- Data slitting
+## Modelling
 > - Chọn biến, Logic trong việc tạo relationship giữa các biến
 > - Chọn train dataset, test dataset
 `T  ếp tục thực hiện các bước tiếp theo dựa trên working flow chung của ML => tham khảo flow tại đây: https://www.datacamp.com/blog/a-beginner-s-guide-to-the-machine-learning-workflow`
+## Deployment
+- Deploy
+- Monitor
+- Improve
 # How to intergrate solution to partner
 Trình bày, mô tả logic chuyển giao và vai trò của các bên liên quan trong quá trình chuyển giao công nghệ khi bán nó cho partner
+<br> Có thể chèn thêm BPMN vào
