@@ -7,7 +7,7 @@ Trong BỐI CẢNH này, những ĐỐI TƯỢNG này phải đối mặt với 
 <br>
 _Executive summary of Financial Scoring mock project_
 # Problem (Inital Problem)
-The CLV value (Customer Lifetime Value) decreases for digital financial and credit enterprises due to the increasing number of customers being rejected for financial and credit products, esprcially personal loans and credit cards. Efforts in customer service have increased, but they have not improved the number of successful applications of financial products.
+The CLV (Customer Lifetime Value) decreases for digital financial and credit enterprises. Efforts in customer service have increased, but the results are not significant.
 
 # Solution development
 In the solution development stage, I use **Double Diamond framework**, which switches respectively between **Divergence** (open, innovative status) and **Convergence** (focus, strategic status) in order to define root cause of the problems and create the best solution to resolve the root cause. I go through 4 phases to develop the disruptive and appropriate solution:
