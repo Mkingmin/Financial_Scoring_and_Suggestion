@@ -40,7 +40,9 @@ Discover phase is the divergent phase, which information and findings of analysi
 
 **Summary 3:** The digital financial market is experiencing intense competition as most companies are intensifying their investments to enhance user experience on mobile applications and websites, while also ramping up promotional and marketing activities.
 <br><br> Analyzing Strategy map of BFSI enterprises to discover their strategy and value curve
-<br> thêm hình ảnh strategy map vào đây
+<br> ![image](https://github.com/user-attachments/assets/534957f7-f700-4e6d-890e-dc61497c87ce)
+<br>_Strategy map of BFSI industry_
+<br>
 <br> The above strategy map and value curve represents for 7 competing factors which are the key factors that customers consider when making purchasing decisions. These key factors:
 <ul>
   <li>Diversity of product categories</li>
@@ -49,15 +51,19 @@ Discover phase is the divergent phase, which information and findings of analysi
   <li>User interface on application, website</li>
   <li>Time of disbursement</li>
   <li>Promotional and marketing activities</li>
-  <li>diversity and uniqueness of the feature on application, website</li>
+  <li>Diversity and uniqueness of the feature on application, website</li>
 </ul>
 
-Các công ty tài chính đang đi theo chiến lược X. Tính cá nhân hóa, và các yếu tố trải nghiệm khách hàng trên ứng dụng, website đang được những công ty tài chính tập trung đẩu tư, tạo ra khoảng cạnh tranh gay gắt trong vùng này.
+Financial enterprises are following the differentiation strategy. Customer experience factors, user interface on applications and websites, and promotional activities are areas that these financial companies are focusing their investments on, creating fierce competition in this field.
 ## 2. Define phase
 Let's move on to Convergent status where we focus and structure all of the findings in the Discover phase above to define the right core problem (or root cause)
-![image](https://github.com/user-attachments/assets/fcb6edb9-faa9-4f34-828e-ee19b517b8c6)
+<br><br>**Root cause:** The discrepancy between customer needs and financial capabilities
+<br>
+![image](https://github.com/user-attachments/assets/076e768d-ad98-4fe9-8d37-986275cafcea)
 <br> _Issue tree to find out root causes from the Inital problem_
-<br> Problem statement:  => giải thích vì sao chọn root cause đó là core problem để xây dựng solution giải quyết? -> Vì nó có tiềm năng mang lại những bước đột phá hơn là đề xuất giải pháp cho những root cause còn lại (những root cause đó đối thủ đã làm rồi và đang làm tốt, những tính năng đó khá vượt trội, nếu cố gắng improve tính năng đó để vượt mặt đối thủ thì cần đầu tư một khoản chi phí lớn, dẫn đến áp lực chi phí, ROI dự kiến trong trường hợp đó không cao)
+<br><br> Although we have some root causes such as slow loading speed, non-diverse functions, lack of promotion, and slow disbursement, these root causes are situated within a highly competitive area mentioned in section [### 1.3. Competitive analysis]. Focusing on addressing these root causes with the goal of surpassing competitors is not a viable or cost-efficient option. Instead, the root cause of the incompatibility between customer needs and financial capabilities is the core problem that most competitors have yet to address. If we focus to solve this root cause (or core problem), the opportunity to regain CLV and increase competitive advantage over other enterprises is greater.
+<br><br> **Problem statement:** "The discrepancy between customer needs and financial capabilities" is the core problem, which, if solved, promises not only to resolve the initial problem but also to bring competitive advantages with optimized costs and promising ROI.
+[## 3. Develop phase]
 ## 3. Develop phase
 > Đây là divergent phase, open để tìm kiếm đa dạng những materials, những cách tiếp cận innovative để phát triển solution
 
