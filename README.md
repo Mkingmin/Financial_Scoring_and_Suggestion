@@ -60,7 +60,8 @@ Let's move on to Convergent status where we focus and structure all of the findi
 <br> Problem statement:  => giải thích vì sao chọn root cause đó là core problem để xây dựng solution giải quyết? -> Vì nó có tiềm năng mang lại những bước đột phá hơn là đề xuất giải pháp cho những root cause còn lại (những root cause đó đối thủ đã làm rồi và đang làm tốt, những tính năng đó khá vượt trội, nếu cố gắng improve tính năng đó để vượt mặt đối thủ thì cần đầu tư một khoản chi phí lớn, dẫn đến áp lực chi phí, ROI dự kiến trong trường hợp đó không cao)
 ## 3. Develop phase
 > Đây là divergent phase, open để tìm kiếm đa dạng những materials, những cách tiếp cận innovative để phát triển solution
-> Thực hiện customer behavior analysis
+
+<br> Tập trung vào customer behavior analysis và phân tích những cơ hội, khoảng trống tiềm năng của thị trường => chia thành customer be analysis và opportunity analysis
 ## 4. Deliver phase
 > Đây là convergent phase, nhiệm vụ trong giai đoạn này là hệ thống hóa những idea và thông tin tổng hợp được ở trên để xác định solution cụ thể
 > Những yếu tố cần xác định trong phase này:
