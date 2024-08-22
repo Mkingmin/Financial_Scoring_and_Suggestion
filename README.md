@@ -21,7 +21,7 @@ In the solution development stage, I use **Double Diamond framework**, which swi
 ## 1. Dicover phase
 Discover phase is the divergent phase, which information and findings of analysis are out of the box collected.
 ### 1.1. Elicit information from partners (BFSI enterprises)
-> **Note**: The information analyzed below is based on real data from financial partners I have had the opportunity to collaborate with. For confidentiality reasons, I would like to refrain from providing specific figures and will not disclose the names of the individuals or organizations involved.
+> **Note**: The information analyzed below is based on real story from financial partners I have had the opportunity to collaborate with. For confidentiality reasons, I would like to refrain from providing specific figures and will not disclose the names of the individuals or organizations involved.
 
 **Summary 1**: BFSI enterprises say that they have been suffered the decline in value per customer, which is the result of the decrease of value per transaction and the huge number of customer's applications that are rejected _(over 40% registration for financial and credit products are unqualified per month)._
 <br><br> Factors that lead customers to be rejected are:
