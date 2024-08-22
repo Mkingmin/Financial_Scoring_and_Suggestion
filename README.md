@@ -54,7 +54,7 @@ Discover phase is the divergent phase, which information and findings of analysi
 
 Các công ty tài chính đang đi theo chiến lược X. Tính cá nhân hóa, và các yếu tố trải nghiệm khách hàng trên ứng dụng, website đang được những công ty tài chính tập trung đẩu tư, tạo ra khoảng cạnh tranh gay gắt trong vùng này.
 ## 2. Define phase
-Let's move on to Convergent status where we focus and structure all of the findings above to define the right core problem (or root cause)
+Let's move on to Convergent status where we focus and structure all of the findings in the Discover phase above to define the right core problem (or root cause)
 ![image](https://github.com/user-attachments/assets/fcb6edb9-faa9-4f34-828e-ee19b517b8c6)
 <br> _Issue tree to find out root causes from the Inital problem_
 <br> Problem statement:  => giải thích vì sao chọn root cause đó là core problem để xây dựng solution giải quyết? -> Vì nó có tiềm năng mang lại những bước đột phá hơn là đề xuất giải pháp cho những root cause còn lại (những root cause đó đối thủ đã làm rồi và đang làm tốt, những tính năng đó khá vượt trội, nếu cố gắng improve tính năng đó để vượt mặt đối thủ thì cần đầu tư một khoản chi phí lớn, dẫn đến áp lực chi phí, ROI dự kiến trong trường hợp đó không cao)
