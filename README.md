@@ -93,8 +93,9 @@ Thêm ảnh framework 2-D đã được fill hoàn chỉnh tất cả nội dung
 <br> + Chi phí ứng dụng công nghệ có khả thi không?
 ## Financial score evaluation
 Chọn thang đo để tính financial score
+<br> _có thể lược bỏ nếu logic của decistion tree không giống như dự kiến_
 ## Technology that was employed
-> - Công nghệ gì được sử dụng - algorithm ML nào là phù hợp nhất?
+> - Công nghệ gì được sử dụng - algorithm ML nào là phù hợp nhất? => có thể sẽ sử dụng 2 model: Decision tree và 1 model để ghép cặp số điểm tài chính với loại sản phẩm phù hợp để đề xuất cho user
 > - Tại sao chọn nó?
 ### Logic of Decision tree algorithm
 Thêm hình ảnh vào. Tham khảo tại [Decision tree](https://www.datacamp.com/tutorial/decision-tree-classification-python)
