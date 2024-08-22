@@ -67,6 +67,10 @@ Let's move on to Convergent status where we focus and structure all of the findi
 > <br> + Mô tả cụ thể solution
 > <br> + Những giá trị mà solution này tạo ra
 > <br> + Những giá trị này giải quyết được problem như thế nào? Tại sao solution này phù hợp?
+
+- Listing những criteria và elements có ảnh hưởng đến việc hình thành solution (visualize nếu cần thiết) => sử dụng thêm framework nếu được
+- Thực hiện estimate những yếu tố như cost, time, effort để chứng minh tính phù hợp và khả thi của giải pháp (có thể sử dụng framework PERT)
+
 ## Solution summary
 Thêm ảnh framework 2-D đã được fill hoàn chỉnh tất cả nội dung trong các phase
 # Executive plan
