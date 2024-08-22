@@ -71,6 +71,7 @@ Let's move on to Convergent status where we focus and structure all of the findi
 
 - Listing những criteria và elements có ảnh hưởng đến việc hình thành solution (visualize nếu cần thiết) => sử dụng thêm framework nếu được
 - Thực hiện estimate những yếu tố như cost, time, effort để chứng minh tính phù hợp và khả thi của giải pháp (có thể sử dụng framework PERT)
+=> Structure những yếu tố được phân tích ở phase Develop (Customer behavior, market opportunity), chỉ ra mối quan hệ giữa những yếu tố này => giải pháp có thể đáp ứng demand, fullfill insights của customer để giành lấy được cơ hội thị trường này
 
 ## Solution summary
 Thêm ảnh framework 2-D đã được fill hoàn chỉnh tất cả nội dung trong các phase
