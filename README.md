@@ -19,16 +19,45 @@ In the solution development stage, I use **Double Diamond framework**, which swi
 <br> _Double Diamond framework that is employed to develop solution_
 
 ## 1. Dicover phase
-> Đây là divergent phase, nơi mà các thông tin, những phân tích và kết quả phân tích được tổng hợp một cách cởi mở
-> - Những phân tích cần được thực hiện trong giai đoạn này bao gồm:
->   <br> + Partner demand elicit => summary 1 (tập trung bóc tách những "sub problems")
->   <br> + Customer behavior analysis => summary 2 (tập trung vào tìm kiếm sâu problem mà user đang gặp phải => Social listening technique)
->   <br> + Competitive analysis => summary 3 (đối thủ đang làm gì => những thách thức gì đang chờ)
+Discover phase is the divergent phase, which information and findings of analysis are out of the box collected.
+### 1.1. Elicit information from partners (BFSI enterprises)
+> **Note**: The information analyzed below is based on real data from financial partners I have had the opportunity to collaborate with. For confidentiality reasons, I would like to refrain from providing specific figures and will not disclose the names of the individuals or organizations involved.
+
+**Summary 1**: BFSI enterprises say that they have been suffered the decline in value per customer, which is the result of the decrease of value per transaction and the huge number of customer's applications that are rejected _(over 40% registration for financial and credit products are unqualified per month)._
+<br><br> Factors that lead customers to be rejected are:
+- **The discrepancy between customer needs and financial capabilities**, which means they register in financial products that have higher standards than their capabilities
+- **Incorrect information during the registration process**
+
+### 1.2. Customer demands analysis
+**Summary 2:** Negative emotion from the previous experience can lead to the significant decrease in customer retention rate
+<br> There are some noteworthy insights about customers in financial industry:
+- 73% of consumers will switch to a competitor after multiple bad experiences - both UI, UX and customer service experiences (Zendesk, 2024, [51 customer service statistics you need to know](https://www.zendesk.com/blog/customer-service-statistics/#) )
+- More than half of consumers will switch to a competitor after only one bad experience (Zendesk, 2024, [51 customer service statistics you need to know](https://www.zendesk.com/blog/customer-service-statistics/#) )
+- Timely disbursement positively affects to retention rate of customers in loan category (Craig Churchill, 2000, [Banking on Customer Loyalty](https://scholarsarchive.byu.edu/esr/vol2/iss2/2/) )
+
+### 1.3. Competitive analysis
+> **Objective:** Competitive analysis is conducted in order to explore which aspects financial enterprises focusing their investments on and which aspects the enterprises are excelling in.
+
+**Summary 3:** The digital financial market is experiencing intense competition as most companies are intensifying their investments to enhance user experience on mobile applications and websites, while also ramping up promotional and marketing activities.
+<br><br> Analyzing Strategy map of BFSI enterprises to discover their strategy and value curve
+<br> thêm hình ảnh strategy map vào đây
+<br> The above strategy map and value curve represents for 7 competing factors which are the key factors that customers consider when making purchasing decisions. These key factors:
+<ul>
+  <li>Diversity of product categories</li>
+  <li>Personalization</li>
+  <li>User experience on application, website</li>
+  <li>User interface on application, website</li>
+  <li>Time of disbursement</li>
+  <li>Promotional and marketing activities</li>
+  <li>diversity and uniqueness of the feature on application, website</li>
+</ul>
+
+Các công ty tài chính đang đi theo chiến lược X. Tính cá nhân hóa, và các yếu tố trải nghiệm khách hàng trên ứng dụng, website đang được những công ty tài chính tập trung đẩu tư, tạo ra khoảng cạnh tranh gay gắt trong vùng này.
 ## 2. Define phase
-> Đây là convergent phase, nơi mà những findings ở trên được hệ thống hóa để tìm ra root cause hay core problem
-> Những nhiệm vụ cần thực hiện:
-> <br> + Vẽ issue tree => root cause
-> <br> + Viết 1 câu summary (prblem statement)
+Let's move on to Convergent status where we focus and structure all of the findings above to define the right core problem (or root cause)
+![image](https://github.com/user-attachments/assets/fcb6edb9-faa9-4f34-828e-ee19b517b8c6)
+<br> _Issue tree to find out root causes from the Inital problem_
+<br> Problem statement:  => giải thích vì sao chọn root cause đó là core problem để xây dựng solution giải quyết? -> Vì nó có tiềm năng mang lại những bước đột phá hơn là đề xuất giải pháp cho những root cause còn lại (những root cause đó đối thủ đã làm rồi và đang làm tốt, những tính năng đó khá vượt trội, nếu cố gắng improve tính năng đó để vượt mặt đối thủ thì cần đầu tư một khoản chi phí lớn, dẫn đến áp lực chi phí, ROI dự kiến trong trường hợp đó không cao)
 ## 3. Develop phase
 > Đây là divergent phase, open để tìm kiếm đa dạng những materials, những cách tiếp cận innovative để phát triển solution
 > Thực hiện customer behavior analysis
@@ -71,3 +100,5 @@ Thêm hình ảnh vào. Tham khảo tại [Decision tree](https://www.datacamp.c
 # How to intergrate solution to partner
 Trình bày, mô tả logic chuyển giao và vai trò của các bên liên quan trong quá trình chuyển giao công nghệ khi bán nó cho partner
 <br> Có thể chèn thêm BPMN vào
+# Appendix
+tổng hợp lại những nguồn tài liệu tham khảo có sử dụng trong bài
