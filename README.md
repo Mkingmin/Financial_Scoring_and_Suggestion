@@ -61,9 +61,8 @@ Let's move on to Convergent status where we focus and structure all of the findi
 <br>
 ![image](https://github.com/user-attachments/assets/076e768d-ad98-4fe9-8d37-986275cafcea)
 <br> _Issue tree to find out root causes from the Inital problem_
-<br><br> Although we have some root causes such as slow loading speed, non-diverse functions, lack of promotion, and slow disbursement, these root causes are situated within a highly competitive area mentioned in section [### 1.3. Competitive analysis]. Focusing on addressing these root causes with the goal of surpassing competitors is not a viable or cost-efficient option. Instead, the root cause of the incompatibility between customer needs and financial capabilities is the core problem that most competitors have yet to address. If we focus to solve this root cause (or core problem), the opportunity to regain CLV and increase competitive advantage over other enterprises is greater.
+<br><br> Although we have some root causes such as slow loading speed, non-diverse functions, lack of promotion, and slow disbursement, these root causes are situated within a highly competitive area mentioned in section [1.3. Competitive analysis](https://github.com/Mkingmin/financial-scoring-mock-project/blob/main/README.md#13-competitive-analysis). Focusing on addressing these root causes with the goal of surpassing competitors is not a viable or cost-efficient option. Instead, the root cause of the incompatibility between customer needs and financial capabilities is the core problem that most competitors have yet to address. If we focus to solve this root cause (or core problem), the opportunity to regain CLV and increase competitive advantage over other enterprises is greater.
 <br><br> **Problem statement:** "The discrepancy between customer needs and financial capabilities" is the core problem, which, if solved, promises not only to resolve the initial problem but also to bring competitive advantages with optimized costs and promising ROI.
-[## 3. Develop phase]
 ## 3. Develop phase
 > Đây là divergent phase, open để tìm kiếm đa dạng những materials, những cách tiếp cận innovative để phát triển solution
 
