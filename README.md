@@ -90,24 +90,24 @@ As analyzed in [Section 1.3](https://github.com/Mkingmin/financial-scoring-mock-
 **Solution statement:** Financial Scoring & Suggestion is an innovative solution that streamlines the financial product recommendation process by automatically calculating a user's financial score and suggesting relevant products. This not only enhances the user satisfaction by matching them with suitable financial products to reduce application cancellations and ultimately boosts Customer Lifetime Value (CLV), but also minimizes customer service costs.
 
 ## Solution summary
-Thêm ảnh framework 2-D đã được fill hoàn chỉnh tất cả nội dung trong các phase
+![image](https://github.com/user-attachments/assets/94c24d89-4ea6-4023-9048-3557e03efc97)
+<br> Completed Double Diamond framework
 # Executive plan
 ## Objectives
 - Business objectives:
-<br> + Giải quyết được root cause để tạo ra GIÁ TRỊ (có thể lượng hóa)
-<br> + Tăng những giá trị nhất định trong UX: tăng return rate, giảm "cảm xúc tiêu cực" (term in customer behavior/Marketing) khi liên tục bị từ chối hồ sơ
-- Technical objectives:
-<br> + Đảm bảo tính khả thi về mặt technical
-<br> + Chi phí ứng dụng công nghệ có khả thi không?
+<br> + Resolve root cause để tăng CLV lên X%
+<br> + Tăng X% customer retention rate
+
 ## Financial score evaluation
 Chọn thang đo để tính financial score
 <br> _có thể lược bỏ nếu logic của decistion tree không giống như dự kiến_
 ## Technology that was employed
 > - Công nghệ gì được sử dụng - algorithm ML nào là phù hợp nhất? => có thể sẽ sử dụng 2 model: Decision tree và 1 model để ghép cặp số điểm tài chính với loại sản phẩm phù hợp để đề xuất cho user
-> - Tại sao chọn nó?
+> - Mục tiêu của từng algorithm là gì?
 ### Logic of Decision tree algorithm
 Thêm hình ảnh vào. Tham khảo tại [Decision tree](https://www.datacamp.com/tutorial/decision-tree-classification-python)
 <br> Thêm chú thích (nếu cần) cho hình ảnh ở trên
+<br> Có thể dời phần logic vào chung phần Modelling => chia thành 2 mục nhỏ, mỗi mục là 1 thuật toán
 ## Data preparation
 - Dùng sample dataset có nguồn từ đâu? Có điểm gì đặc biệt trong tập dataset này không?
 - Feature engineering
