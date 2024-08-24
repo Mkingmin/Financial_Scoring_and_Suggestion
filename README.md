@@ -91,7 +91,7 @@ As analyzed in [Section 1.3](https://github.com/Mkingmin/financial-scoring-mock-
 
 ## Solution summary
 ![image](https://github.com/user-attachments/assets/94c24d89-4ea6-4023-9048-3557e03efc97)
-<br> Completed Double Diamond framework
+<br> _Completed Double Diamond framework. Read details [here]()_
 # Executive plan
 ## Objectives
 - Business objectives:
