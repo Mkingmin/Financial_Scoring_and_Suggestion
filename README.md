@@ -66,19 +66,19 @@ Let's move on to **Convergent status** where we focus and structure all of the f
 ## 3. Develop phase
 > This is the divergent phase - open to find out and dive deep into all of the relevant materials and innovative approaches for solution. Focusing on customer behavior analysis and opportunity analysis is the way to shed light on insights and market gap
 ### 3.1. Customer insights
-
+#### Demographic
+#### Behavior
+#### Psychology
 ### 3.2. Opportunity analysis
-
+As analyzed in [Section 1.3](https://github.com/Mkingmin/financial-scoring-mock-project/blob/main/README.md#13-competitive-analysis), digital BFSI competitors are investing heavily in user experience, user interface, and promotion, thereby gaining a certain edge. By addressing customer satisfaction through a reduction in application cancellation rates, new opportunities below may arise:
+- Transcending the intense competition in the digital BFSI industry category
+- Minimizing CSKH costs and efforts, to allocate resources more efficiently elsewhere
 ## 4. Deliver phase
-> Đây là convergent phase, nhiệm vụ trong giai đoạn này là hệ thống hóa những idea và thông tin tổng hợp được ở trên để xác định solution cụ thể
-> Những yếu tố cần xác định trong phase này:
-> <br> + Mô tả cụ thể solution
-> <br> + Những giá trị mà solution này tạo ra
-> <br> + Những giá trị này giải quyết được problem như thế nào? Tại sao solution này phù hợp?
+> This is the divergent phase - synthsize and structure all findings on Develop phase above
 
-- Listing những criteria và elements có ảnh hưởng đến việc hình thành solution (visualize nếu cần thiết) => sử dụng thêm framework nếu được
-- Thực hiện estimate những yếu tố như cost, time, effort để chứng minh tính phù hợp và khả thi của giải pháp (có thể sử dụng framework PERT)
-=> Structure những yếu tố được phân tích ở phase Develop (Customer behavior, market opportunity), chỉ ra mối quan hệ giữa những yếu tố này => giải pháp có thể đáp ứng demand, fullfill insights của customer để giành lấy được cơ hội thị trường này
+<br> _Financial scoring & suggestion solution development_
+<br>
+**Solution statement:** Financial Scoring & Suggestion is an innovative solution that streamlines the financial product recommendation process by automatically calculating a user's financial score and suggesting relevant products. This not only enhances the user satisfaction by matching them with suitable financial products to reduce application cancellations, but also minimizes customer service costs, and ultimately boosts Customer Lifetime Value (CLV)
 
 ## Solution summary
 Thêm ảnh framework 2-D đã được fill hoàn chỉnh tất cả nội dung trong các phase
