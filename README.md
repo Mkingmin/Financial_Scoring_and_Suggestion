@@ -40,7 +40,7 @@ Discover phase is the divergent phase, which information and findings of analysi
 
 **Summary 3:** The digital financial market is experiencing intense competition as most companies are intensifying their investments to enhance user experience on mobile applications and websites, while also ramping up promotional and marketing activities.
 <br><br> Analyzing Strategy map of BFSI enterprises to discover their strategy and value curve
-<br> ![image](https://github.com/user-attachments/assets/534957f7-f700-4e6d-890e-dc61497c87ce)
+<br> ![image](https://github.com/user-attachments/assets/a3eeed8b-e1d5-4763-b799-401c67709d65)
 <br>_Strategy map of BFSI industry_
 <br>
 <br> The above strategy map and value curve represents for 7 competing factors which are the key factors that customers consider when making purchasing decisions. These key factors:
@@ -64,12 +64,11 @@ Let's move on to **Convergent status** where we focus and structure all of the f
 <br><br> Although we have some root causes such as slow loading speed, non-diverse functions, lack of promotion, and slow disbursement, these root causes are situated within a highly competitive area mentioned in section [1.3. Competitive analysis](https://github.com/Mkingmin/financial-scoring-mock-project/blob/main/README.md#13-competitive-analysis). Focusing on addressing these root causes with the goal of surpassing competitors is not a viable or cost-efficient option. Instead, the root cause of the incompatibility between customer needs and financial capabilities is the core problem that most competitors have yet to address. If we focus to solve this root cause (or core problem), the opportunity to regain CLV and increase competitive advantage over other enterprises is greater.
 <br><br> **Problem statement:** "The discrepancy between customer needs and financial capabilities" is the core problem, which, if solved, promises not only to resolve the initial problem but also to bring competitive advantages with optimized costs and promising ROI.
 ## 3. Develop phase
-### 3.1. Customer behavior analysis
+> This is the divergent phase - open to find out and dive deep into all of the relevant materials and innovative approaches for solution. Focusing on customer behavior analysis and opportunity analysis is the way to shed light on insights and market gap
+### 3.1. Customer insights
 
 ### 3.2. Opportunity analysis
-> Đây là divergent phase, open để tìm kiếm đa dạng những materials, những cách tiếp cận innovative để phát triển solution
 
-<br> Tập trung vào customer behavior analysis và phân tích những cơ hội, khoảng trống tiềm năng của thị trường => chia thành customer be analysis và opportunity analysis
 ## 4. Deliver phase
 > Đây là convergent phase, nhiệm vụ trong giai đoạn này là hệ thống hóa những idea và thông tin tổng hợp được ở trên để xác định solution cụ thể
 > Những yếu tố cần xác định trong phase này:
