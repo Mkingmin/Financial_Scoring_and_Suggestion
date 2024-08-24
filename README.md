@@ -67,8 +67,16 @@ Let's move on to **Convergent status** where we focus and structure all of the f
 > This is the divergent phase - open to find out and dive deep into all of the relevant materials and innovative approaches for solution. Focusing on customer behavior analysis and opportunity analysis is the way to shed light on insights and market gap
 ### 3.1. Customer insights
 #### Demographic
+Demographic characteristics of target customer include:
+- Age: 18 - 35
+- Income: >= 5 mil VND per month
 #### Behavior
+- Prioritize time efficient solution because they are busy, which is 76% of customers say they expect to engage with someone immediately when contacting a company (Michael Keenan, 2023, [Fast Customer Service: An Easy Way to Improve Your Retail Business](https://www.shopify.com/ph/enterprise/blog/fast-customer-service))
+- Tech savvy generation who prefers digital solution than traditional customer service as tele-sales, which 75% of Gen Z are more likely to buy a product if they can customize it online before purchasing (Wpengine, 2020, [Generation Influence: Reaching Gen Z in the New Digital Paradigm](https://wpengine.com/resources/gen-z-2020-full-report/))
 #### Psychology
+- Successful disbursement capability is the most important thing for users
+- Lose trust and churn if experienced multiple rejections
+- Be open in sharing information to receive a better experience
 ### 3.2. Opportunity analysis
 As analyzed in [Section 1.3](https://github.com/Mkingmin/financial-scoring-mock-project/blob/main/README.md#13-competitive-analysis), digital BFSI competitors are investing heavily in user experience, user interface, and promotion, thereby gaining a certain edge. By addressing customer satisfaction through a reduction in application cancellation rates, new opportunities below may arise:
 - Transcending the intense competition in the digital BFSI industry category
@@ -76,9 +84,10 @@ As analyzed in [Section 1.3](https://github.com/Mkingmin/financial-scoring-mock-
 ## 4. Deliver phase
 > This is the divergent phase - synthsize and structure all findings on Develop phase above
 
+![image](https://github.com/user-attachments/assets/7c814d29-2a7e-470b-9949-603fede98a92)
 <br> _Financial scoring & suggestion solution development_
-<br>
-**Solution statement:** Financial Scoring & Suggestion is an innovative solution that streamlines the financial product recommendation process by automatically calculating a user's financial score and suggesting relevant products. This not only enhances the user satisfaction by matching them with suitable financial products to reduce application cancellations, but also minimizes customer service costs, and ultimately boosts Customer Lifetime Value (CLV)
+<br><br>
+**Solution statement:** Financial Scoring & Suggestion is an innovative solution that streamlines the financial product recommendation process by automatically calculating a user's financial score and suggesting relevant products. This not only enhances the user satisfaction by matching them with suitable financial products to reduce application cancellations and ultimately boosts Customer Lifetime Value (CLV), but also minimizes customer service costs.
 
 ## Solution summary
 Thêm ảnh framework 2-D đã được fill hoàn chỉnh tất cả nội dung trong các phase
