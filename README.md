@@ -3,7 +3,7 @@ Financial Scoring & Suggestion is a mock project that employs machine learning t
 <br>Are you now ready to explore the solution? Read the full flow of idea and check out models. Let's start!
 # Executive summary
 As the demand for financial products continues to rise, financial enterprises are grappling with **a surge in rejected applications** for financial products and credit, resulting in **decreased Customer Lifetime Value (CLV)**. The **root cause** of this problem is _the discrepancy between customer needs and financial capabilities_. Given the customer insights that reveal customers are tech-savvy, prioritize digital solutions, and expect time-efficient experiences, the **Financial Scoring & Suggestion solution** emerges as the most effective solution, enabling quick assessment of customers' financial capabilities and automatic recommendation of suitable financial products.<br>
-![image](https://github.com/user-attachments/assets/4fcd9085-ea4a-42de-b0fb-6af42e4f06c7)
+![image](https://github.com/user-attachments/assets/11b25f00-3943-4a99-b117-02dba557deb7)
 <br>
 _Executive summary of Financial Scoring mock project_
 # Problem (Inital Problem)
@@ -84,13 +84,13 @@ As analyzed in [Section 1.3](https://github.com/Mkingmin/financial-scoring-mock-
 ## 4. Deliver phase
 > This is the divergent phase - synthsize and structure all findings on Develop phase above
 
-![image](https://github.com/user-attachments/assets/20c0fe56-114d-4dc1-aaa1-c6c568d75145)
+![image](https://github.com/user-attachments/assets/84dca345-2d63-43f5-bab1-ac1d53c7eef5)
 <br> _Financial scoring & suggestion solution development_
 <br><br>
 **Solution statement:** Financial Scoring & Suggestion is an innovative solution that streamlines the financial product recommendation process by automatically evaluating user's financial capability and suggesting relevant products. This not only enhances the user satisfaction by matching them with suitable financial products to reduce application cancellations and ultimately boosts Customer Lifetime Value (CLV), but also minimizes customer service costs.
 
 ## Solution summary
-![image](https://github.com/user-attachments/assets/c82ff495-9e0c-4905-b93d-67aaadcab234)
+![image](https://github.com/user-attachments/assets/213f0e59-2a82-42c2-906c-e68d01f7d8e3)
 <br> _Completed Double Diamond framework. Read details [here]()_
 # Executive plan
 ## Technology (machine learning algorithms that are employed)
