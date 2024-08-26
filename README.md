@@ -106,7 +106,8 @@ Being approved or rejected for a credit card is considerd as a measure of a cust
 ![image](https://github.com/user-attachments/assets/079b98a6-d60a-46b6-87a6-68808f417051)
 <br> _Business logic of CART model_
 #### Building CART model
-Trình bày kết quả visualize của model ra _(note: đối với dạng model này, sử dụng Gini index)_ => đâu là feature (feature selection) => chọn ra những biến có ảnh hưởng đến target variable, đâu là target variable + trình bày cách thức mà Gini ratio phân chia các node
+- Feature selection
+<br> Trình bày kết quả visualize của model ra _(note: đối với dạng model này, sử dụng Gini index)_ => đâu là feature (feature selection) => chọn ra những biến có ảnh hưởng đến target variable, đâu là target variable + trình bày cách thức mà Gini ratio phân chia các node
 #### Evaluating model
 - Thực hiện evaluate => tính độ chính xác
 #### Optimizing model
