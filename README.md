@@ -106,9 +106,11 @@ Những yếu tố ảnh hưởng đến việc đánh giá khả năng tài ch�
 - dạksj
 <br> Với
 ### Data preparation
-fjhajk
+Trình bày rằng đây là data sample lấy từ nguồn nào? Và, vì là data sample cho nên đã được xử lý sẵn, không cần xử lý thêm => gửi lời cảm ơn, lòng biết ơn đến người, tổ chức đã cung cấp dataset này
 ### Modelling
-- Lồng ghép code vào với logic => mục đích là gì, viết code gì => lấy hình từ jupyter notebook
+- Trình bày kết quả visualize của model ra (note: đối với dạng model này, sử dụng Gini index)
+- Thực hiện evaluate => tính độ chính xác
+- Improve nếu cần 
 ## Apriori algorithm
 ### Logic of Apriori
 
