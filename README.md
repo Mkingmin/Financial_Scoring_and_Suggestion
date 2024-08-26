@@ -94,7 +94,7 @@ As analyzed in [Section 1.3](https://github.com/Mkingmin/financial-scoring-mock-
 <br> _Completed Double Diamond framework. Read details [here]()_
 # Executive plan
 ## Technology (machine learning algorithms that are employed)
-- Applying two algorithms: Decision tree (CART (Classification and Regression Tree) in particular) và Apriori algorithm
+- Applying two algorithms: Decision tree (CART (Classification and Regression Tree) in particular) and Apriori algorithm
 - Objectives of each algorithm: CART (Classification and Regression Tree) is used to evaluate financial capability of customers based in the specific criteria; while Apriori algorithm is used to automated suggest relevant financial products by creating "itemset" of products and financial score.
 ## CART (Classification and Regression Tree) algorithm
 ### Data preparation
