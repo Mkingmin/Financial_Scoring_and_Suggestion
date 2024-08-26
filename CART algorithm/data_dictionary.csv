@@ -1,12 +1,12 @@
 Field name, Data type, Description, Notes
-card, boolean, the status of the application of credit card, which "yes" means credit card accepted while "no" means credit card rejected, none
+card, boolean, the status of the application of credit card which "yes" means credit card accepted while "no" means credit card rejected, none
 reports, binary,  number of major derogatory reports, none
 age, float, age n years plus twelfths of a year, none
 income, float, yearly income of customers, divided by 10,000
 share, float, ratio of monthly credit card expenditure to yearly income, none
 expenditure, float, average monthly credit card expenditure, none
-owner, boolean, the status of house ownership, which "yes" means owning their house while "no" means their house is rented, none
-selfempl, boolean, the status of employment, which "yes" means employed while "no" means unemployed, none
+owner, boolean, the status of house ownership which "yes" means owning their house while "no" means their house is rented, none
+selfempl, boolean, the status of employment which "yes" means employed while "no" means unemployed, none
 dependents, interger, dependents equal to 1 plus number of actual dependents, none
 months, interger, the number of months living at current address, none
 majorcards, interger, the number of major credit cards held, none
