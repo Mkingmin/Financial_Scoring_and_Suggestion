@@ -93,10 +93,6 @@ As analyzed in [Section 1.3](https://github.com/Mkingmin/financial-scoring-mock-
 ![image](https://github.com/user-attachments/assets/c82ff495-9e0c-4905-b93d-67aaadcab234)
 <br> _Completed Double Diamond framework. Read details [here]()_
 # Executive plan
-## Objectives
-- Business objectives:
-<br> + Resolve root cause in order to increase CLV to ~30%
-<br> + Increase ~40% in customer retention rate
 ## Technology (machine learning algorithms that are employed)
 - Applying two algorithms: Decision tree (CART (Classification and Regression Tree) in particular) và Apriori algorithm
 - Objectives of each algorithm: CART (Classification and Regression Tree) is used to evaluate financial capability of customers based in the specific criteria; while Apriori algorithm is used to automated suggest relevant financial products by creating "itemset" of products and financial score.
@@ -104,10 +100,16 @@ As analyzed in [Section 1.3](https://github.com/Mkingmin/financial-scoring-mock-
 ### Data preparation
 Trình bày rằng đây là data sample lấy từ nguồn nào (dẫn link nguồn)? Và, vì là data sample cho nên đã được xử lý sẵn, không cần xử lý thêm => gửi lời cảm ơn, lòng biết ơn đến người, tổ chức đã cung cấp dataset này => lý do chọn dataset này là vì nó thỏa mãn được các trường tương thích với các yếu tố ảnh hưởng đến việc đánh giá khả năng tài chính của user
 <br> thêm hình ảnh head của dataset => overall description
+<br> Data được chia thành training set và test set bằng cách nào? => trình bày ra
 ### Modelling
-- Giải thích logic chung của model: business idea => foundation idea for models
-- Trình bày kết quả visualize của model ra _(note: đối với dạng model này, sử dụng Gini index)_
+Being approved or rejected for a credit card is considerd as a measure of a customer's financial capability, because credit cards have the highest approval standards and also have the highest rejected rate.
+![image](https://github.com/user-attachments/assets/079b98a6-d60a-46b6-87a6-68808f417051)
+<br> _Business logic of CART model_
+#### Building CART model
+Trình bày kết quả visualize của model ra _(note: đối với dạng model này, sử dụng Gini index)_ => trình bày cách thức mà Gini ratio phân chia các node
+#### Evaluating model
 - Thực hiện evaluate => tính độ chính xác
+#### Optimizing model
 - Improve nếu cần 
 ## Apriori algorithm
 ### Logic of Apriori
