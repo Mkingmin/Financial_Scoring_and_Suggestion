@@ -1,5 +1,5 @@
 # Preface
-Financial scoring is a mock project that employs machine learning technique to deliver the solution for CLV improvement in Fintech industry. The main purpose of that mock project is to indicate the process of solution development and delivery that I use as a Business Analyst. <br>
+Financial Scoring & Suggestion is a mock project that employs machine learning technique to deliver the solution for CLV improvement in Fintech industry. The main purpose of that mock project is to indicate the process of solution development and delivery that I use as a Business Analyst. <br>
 <br>Are you now ready to explore the solution? Read the full flow of idea and check out models. Let's start!
 # Executive summary
 As the demand for financial products continues to rise, financial enterprises are grappling with a surge in rejected applications for financial products and credit, resulting in decreased Customer Lifetime Value (CLV). The root cause of this problem is the The discrepancy between customer needs and financial capabilities. Given the customer insights that reveal customers are tech-savvy, prioritize digital solutions, and expect time-efficient experiences, the Financial Scoring & Suggestion solution emerges as the most effective solution, enabling quick assessment of customers' financial capabilities and automatic recommendation of suitable financial products.<br>
@@ -95,19 +95,25 @@ As analyzed in [Section 1.3](https://github.com/Mkingmin/financial-scoring-mock-
 # Executive plan
 ## Objectives
 - Business objectives:
-<br> + Resolve root cause để tăng CLV lên X%
-<br> + Tăng X% customer retention rate
+<br> + Resolve root cause in order to increase CLV to ~30%
+<br> + Increase ~40% in customer retention rate
 ## Technology (machine learning algorithms that are employed)
-- Sử dụng lần lượt 2 thuật toán: Decision tree và Apriori
-- Mục tiêu của từng algorithm: Decision tree được sử đụng để đánh giá khả năng tài chính của khách hàng dựa trên những yếu tố ảnh hưởng đã được xác định; trong khi Apriori được sử dụng để đưa ra những gợi ý sản phẩm tài chính phù hợp cho khách hàng bằng cách gom nhóm (tạo nhóm) sản phẩm với khả năng tài chính 
-## Financial score evaluation
-Những yếu tố ảnh hưởng đến việc đánh giá khả năng tài chính của user:
+- Applying two algorithms: Decision tree (CART (Classification and Regression Tree) in particular) và Apriori algorithm
+- Objectives of each algorithm: CART (Classification and Regression Tree) is used to evaluate financial capability of customers based in the specific criteria; while Apriori algorithm is used to automated suggest relevant financial products by creating "itemset" of products and financial score.
+## CART (Classification and Regression Tree) algorithm
+### Financial score evaluation
+Những yếu tố ảnh hưởng đến việc đánh giá khả năng tài chính của user: _(những yếu tố ảnh hưởng hay criteria này lấy từ trong sample dataset ra)_
 - dạksj
 <br> Với
-## Decision tree algorithm
 ### Data preparation
 fjhajk
 ### Modelling
 - Lồng ghép code vào với logic => mục đích là gì, viết code gì => lấy hình từ jupyter notebook
+## Apriori algorithm
+### Logic of Apriori
+
+### Data preparation
+
+### Modelling
 # Appendix
 tổng hợp lại những nguồn tài liệu tham khảo có sử dụng trong bài
