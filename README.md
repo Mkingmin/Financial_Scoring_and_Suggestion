@@ -2,8 +2,8 @@
 Financial scoring is a mock project that employs machine learning technique to deliver the solution for CLV improvement in Fintech industry. The main purpose of that mock project is to indicate the process of solution development and delivery that I use as a Business Analyst. <br>
 <br>Are you now ready to explore the solution? Read the full flow of idea and check out models. Let's start!
 # Executive summary
-As the demand for financial products continues to rise, financial enterprises are grappling with a surge in rejected applications for financial products and credit, resulting in decreased Customer Lifetime Value (CLV). The root cause of this problem is the The discrepancy between customer needs and financial capabilities. Given the customer insights that reveal customers are tech-savvy, prioritize digital solutions, and expect time-efficient experiences, the Financial Scoring & Suggestion solution emerges as the most effective solution, enabling quick assessment of customers' financial capabilities and automatic recommendation of suitable financial products.
-![image](https://github.com/user-attachments/assets/6606b26d-be5c-4d8a-b500-3a2100dbad63)
+As the demand for financial products continues to rise, financial enterprises are grappling with a surge in rejected applications for financial products and credit, resulting in decreased Customer Lifetime Value (CLV). The root cause of this problem is the The discrepancy between customer needs and financial capabilities. Given the customer insights that reveal customers are tech-savvy, prioritize digital solutions, and expect time-efficient experiences, the Financial Scoring & Suggestion solution emerges as the most effective solution, enabling quick assessment of customers' financial capabilities and automatic recommendation of suitable financial products.<br>
+![image](https://github.com/user-attachments/assets/4fcd9085-ea4a-42de-b0fb-6af42e4f06c7)
 <br>
 _Executive summary of Financial Scoring mock project_
 # Problem (Inital Problem)
@@ -97,31 +97,17 @@ As analyzed in [Section 1.3](https://github.com/Mkingmin/financial-scoring-mock-
 - Business objectives:
 <br> + Resolve root cause để tăng CLV lên X%
 <br> + Tăng X% customer retention rate
-
+## Technology (machine learning algorithms that are employed)
+- Sử dụng lần lượt 2 thuật toán: Decision tree và Apriori
+- Mục tiêu của từng algorithm: Decision tree được sử đụng để đánh giá khả năng tài chính của khách hàng dựa trên những yếu tố ảnh hưởng đã được xác định; trong khi Apriori được sử dụng để đưa ra những gợi ý sản phẩm tài chính phù hợp cho khách hàng bằng cách gom nhóm (tạo nhóm) sản phẩm với khả năng tài chính 
 ## Financial score evaluation
-Chọn thang đo để tính financial score
-<br> _có thể lược bỏ nếu logic của decistion tree không giống như dự kiến_
-## Technology that was employed
-> - Công nghệ gì được sử dụng - algorithm ML nào là phù hợp nhất? => có thể sẽ sử dụng 2 model: Decision tree và 1 model để ghép cặp số điểm tài chính với loại sản phẩm phù hợp để đề xuất cho user
-> - Mục tiêu của từng algorithm là gì?
-### Logic of Decision tree algorithm
-Thêm hình ảnh vào. Tham khảo tại [Decision tree](https://www.datacamp.com/tutorial/decision-tree-classification-python)
-<br> Thêm chú thích (nếu cần) cho hình ảnh ở trên
-<br> Có thể dời phần logic vào chung phần Modelling => chia thành 2 mục nhỏ, mỗi mục là 1 thuật toán
-## Data preparation
-- Dùng sample dataset có nguồn từ đâu? Có điểm gì đặc biệt trong tập dataset này không?
-- Feature engineering
-- Data slitting
-## Modelling
-> - Chọn biến, Logic trong việc tạo relationship giữa các biến
-> - Chọn train dataset, test dataset
-`T  ếp tục thực hiện các bước tiếp theo dựa trên working flow chung của ML => tham khảo flow tại đây: https://www.datacamp.com/blog/a-beginner-s-guide-to-the-machine-learning-workflow`
-## Deployment
-- Deploy
-- Monitor
-- Improve
-# How to intergrate solution to partner
-Trình bày, mô tả logic chuyển giao và vai trò của các bên liên quan trong quá trình chuyển giao công nghệ khi bán nó cho partner
-<br> Có thể chèn thêm BPMN vào
+Những yếu tố ảnh hưởng đến việc đánh giá khả năng tài chính của user:
+- dạksj
+<br> Với
+## Decision tree algorithm
+### Data preparation
+fjhajk
+### Modelling
+- Lồng ghép code vào với logic => mục đích là gì, viết code gì => lấy hình từ jupyter notebook
 # Appendix
 tổng hợp lại những nguồn tài liệu tham khảo có sử dụng trong bài
