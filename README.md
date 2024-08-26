@@ -106,9 +106,9 @@ Những yếu tố ảnh hưởng đến việc đánh giá khả năng tài ch�
 - dạksj
 <br> Với
 ### Data preparation
-Trình bày rằng đây là data sample lấy từ nguồn nào? Và, vì là data sample cho nên đã được xử lý sẵn, không cần xử lý thêm => gửi lời cảm ơn, lòng biết ơn đến người, tổ chức đã cung cấp dataset này
+Trình bày rằng đây là data sample lấy từ nguồn nào (dẫn link nguồn)? Và, vì là data sample cho nên đã được xử lý sẵn, không cần xử lý thêm => gửi lời cảm ơn, lòng biết ơn đến người, tổ chức đã cung cấp dataset này => lý do chọn dataset này là vì nó thỏa mãn được các trường tương thích với các yếu tố ảnh hưởng đến việc đánh giá khả năng tài chính của user
 ### Modelling
-- Trình bày kết quả visualize của model ra (note: đối với dạng model này, sử dụng Gini index)
+- Trình bày kết quả visualize của model ra _(note: đối với dạng model này, sử dụng Gini index)_
 - Thực hiện evaluate => tính độ chính xác
 - Improve nếu cần 
 ## Apriori algorithm
