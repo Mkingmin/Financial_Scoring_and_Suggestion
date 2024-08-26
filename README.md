@@ -101,13 +101,11 @@ As analyzed in [Section 1.3](https://github.com/Mkingmin/financial-scoring-mock-
 - Applying two algorithms: Decision tree (CART (Classification and Regression Tree) in particular) và Apriori algorithm
 - Objectives of each algorithm: CART (Classification and Regression Tree) is used to evaluate financial capability of customers based in the specific criteria; while Apriori algorithm is used to automated suggest relevant financial products by creating "itemset" of products and financial score.
 ## CART (Classification and Regression Tree) algorithm
-### Financial score evaluation
-Những yếu tố ảnh hưởng đến việc đánh giá khả năng tài chính của user: _(những yếu tố ảnh hưởng hay criteria này lấy từ trong sample dataset ra)_
-- dạksj
-<br> Với
 ### Data preparation
 Trình bày rằng đây là data sample lấy từ nguồn nào (dẫn link nguồn)? Và, vì là data sample cho nên đã được xử lý sẵn, không cần xử lý thêm => gửi lời cảm ơn, lòng biết ơn đến người, tổ chức đã cung cấp dataset này => lý do chọn dataset này là vì nó thỏa mãn được các trường tương thích với các yếu tố ảnh hưởng đến việc đánh giá khả năng tài chính của user
+<br> thêm hình ảnh head của dataset => overall description
 ### Modelling
+- Giải thích logic chung của model: business idea => foundation idea for models
 - Trình bày kết quả visualize của model ra _(note: đối với dạng model này, sử dụng Gini index)_
 - Thực hiện evaluate => tính độ chính xác
 - Improve nếu cần 
