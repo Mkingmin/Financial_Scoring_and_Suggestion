@@ -2,8 +2,8 @@
 Financial scoring is a mock project that employs machine learning technique to deliver the solution for CLV improvement in Fintech industry. The main purpose of that mock project is to indicate the process of solution development and delivery that I use as a Business Analyst. <br>
 <br>Are you now ready to explore the solution? Read the full flow of idea and check out models. Let's start!
 # Executive summary
-Trong BỐI CẢNH này, những ĐỐI TƯỢNG này phải đối mặt với PROBLEM này. Dựa vào những INSIGHTS/HIỂU BIẾT rút ra từ kết quả phân tích, thì GIẢI PHÁP này là tối ưu nhất để giải quyết problem đã nêu. Bởi vì, giải pháp này mang lại những GIÁ TRỊ tương thích này
-![Executive summary of Financial Scoring mock project](https://github.com/user-attachments/assets/4f3776e1-9d8e-4fc3-b78e-9db3e5fc2be8)
+As the demand for financial products continues to rise, financial enterprises are grappling with a surge in rejected applications for financial products and credit, resulting in decreased Customer Lifetime Value (CLV). The root cause of this problem is the The discrepancy between customer needs and financial capabilities. Given the customer insights that reveal customers are tech-savvy, prioritize digital solutions, and expect time-efficient experiences, the Financial Scoring & Suggestion solution emerges as the most effective solution, enabling quick assessment of customers' financial capabilities and automatic recommendation of suitable financial products.
+![image](https://github.com/user-attachments/assets/6606b26d-be5c-4d8a-b500-3a2100dbad63)
 <br>
 _Executive summary of Financial Scoring mock project_
 # Problem (Inital Problem)
@@ -84,13 +84,13 @@ As analyzed in [Section 1.3](https://github.com/Mkingmin/financial-scoring-mock-
 ## 4. Deliver phase
 > This is the divergent phase - synthsize and structure all findings on Develop phase above
 
-![image](https://github.com/user-attachments/assets/7c814d29-2a7e-470b-9949-603fede98a92)
+![image](https://github.com/user-attachments/assets/20c0fe56-114d-4dc1-aaa1-c6c568d75145)
 <br> _Financial scoring & suggestion solution development_
 <br><br>
 **Solution statement:** Financial Scoring & Suggestion is an innovative solution that streamlines the financial product recommendation process by automatically evaluating user's financial capability and suggesting relevant products. This not only enhances the user satisfaction by matching them with suitable financial products to reduce application cancellations and ultimately boosts Customer Lifetime Value (CLV), but also minimizes customer service costs.
 
 ## Solution summary
-![image](https://github.com/user-attachments/assets/94c24d89-4ea6-4023-9048-3557e03efc97)
+![image](https://github.com/user-attachments/assets/c82ff495-9e0c-4905-b93d-67aaadcab234)
 <br> _Completed Double Diamond framework. Read details [here]()_
 # Executive plan
 ## Objectives
