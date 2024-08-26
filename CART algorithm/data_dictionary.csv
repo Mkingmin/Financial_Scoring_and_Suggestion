@@ -10,4 +10,4 @@ selfempl, boolean, the status of employment which yes means employed while no me
 dependents, interger, dependents equal to 1 plus number of actual dependents, none
 months, interger, the number of months living at current address, none
 majorcards, interger, the number of major credit cards held, none
-active, interger, the number of active credit cards
+active, interger, the number of active credit cards, none
