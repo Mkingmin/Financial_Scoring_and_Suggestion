@@ -91,7 +91,7 @@ As analyzed in [Section 1.3](https://github.com/Mkingmin/financial-scoring-mock-
 
 ## Solution summary
 ![image](https://github.com/user-attachments/assets/213f0e59-2a82-42c2-906c-e68d01f7d8e3)
-<br> _Completed Double Diamond framework. Read details [here]()_
+<br> _Completed Double Diamond framework. Read details [here](https://drive.google.com/file/d/1_xhPXUTz0PR3K5OT3ZDPpAY6pHODr5E7/view?usp=sharing)_
 # Executive plan
 ## Technology (machine learning algorithms that are employed)
 - **Applying Decision tree algorithm**: CART (Classification and Regression Tree) in particular
