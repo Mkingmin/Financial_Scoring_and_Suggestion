@@ -94,7 +94,7 @@ As analyzed in [Section 1.3](https://github.com/Mkingmin/financial-scoring-mock-
 <br> _Completed Double Diamond framework. Read details [here]()_
 # Executive plan
 ## Technology (machine learning algorithms that are employed)
-- **Applying Decision tree algorithms**: CART (Classification and Regression Tree) in particular
+- **Applying Decision tree algorithm**: CART (Classification and Regression Tree) in particular
 - **Objectives of each algorithm**: CART (Classification and Regression Tree) is used to evaluate financial capability of customers based in the specific criteria
 ## CART (Classification and Regression Tree) algorithm
 ### Data preparation
@@ -109,6 +109,7 @@ Being approved or rejected for a credit card is considerd as a measure of a cust
 #### Building CART model
 **- Target variable:** 'card' - whether a customer is approved for a credit card or not
 <br> **- Feature selection:** 'reports', 'age', 'income', 'share', 'expenditure', 'owner', 'selfemp', 'majorcards', 'active' is the list of features that impact credit card approval rates for customers
+<br> Model building and visualizing
 <br> ![decision_tree_plot](https://github.com/user-attachments/assets/6245a14e-bc5b-4323-94ca-e948256a89d6)
 <br> _Visualization of model_
 <br> That model use Gini ratio as the Attribute Selection Measures, which measures the impurity of the node
@@ -119,4 +120,4 @@ Being approved or rejected for a credit card is considerd as a measure of a cust
 #### Optimizing model
 With the Accuracy value 0.96, which means the predict value has 96% probability to equal to actual value. Therefore, we don't need to optimize the model
 ### Suggestion
-Based on the predict result of CART model, if the user is predicted to belong to the Potential customer group (i.e., those who have been approved for a credit card), the system will automatically suggest financial products with high value and stringent approval conditions for them, such as credit cards and personal loans. On the other hand, if the user is predicted to belong to the Risky customer group (i.e., credit card applications are rejected), they will be suggested products with low value and simple approval conditions, such as payment cards. This helps users to register for products that match their financial capabilities, reducing the rate of rejected applications.
+Based on the predict result of CART model, if the user is predicted to belong to the **Potential customer group** (i.e., those who have been approved for a credit card), the system will automatically suggest financial products with high value and stringent approval conditions for them, such as credit cards and personal loans. On the other hand, if the user is predicted to belong to the **Risky customer group** (i.e., credit card applications are rejected), they will be suggested products with low value and simple approval conditions, such as payment cards. This helps users to register for products that match their financial capabilities, reducing the rate of rejected applications.
