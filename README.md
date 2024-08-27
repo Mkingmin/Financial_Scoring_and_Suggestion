@@ -94,8 +94,8 @@ As analyzed in [Section 1.3](https://github.com/Mkingmin/financial-scoring-mock-
 <br> _Completed Double Diamond framework. Read details [here]()_
 # Executive plan
 ## Technology (machine learning algorithms that are employed)
-- **Applying two algorithms**: Decision tree (CART (Classification and Regression Tree) in particular) and Apriori algorithm
-- **Objectives of each algorithm**: CART (Classification and Regression Tree) is used to evaluate financial capability of customers based in the specific criteria; while Apriori algorithm is used to automated suggest relevant financial products by creating "itemset" of products and financial score.
+- **Applying Decision tree algorithms**: CART (Classification and Regression Tree) in particular
+- **Objectives of each algorithm**: CART (Classification and Regression Tree) is used to evaluate financial capability of customers based in the specific criteria
 ## CART (Classification and Regression Tree) algorithm
 ### Data preparation
 Dataset that has been employed in that model is the sample dataset about credit card which includes in Econometric Analysis book (check out for more about Econometric Analysis book [here](https://archive.org/details/econometricanaly0000gree_f5q0/mode/2up)). The reason I choose that dataset to train and test the CART model is its fit with the business logic. Because the dataset is sample dataset, so it's clean and makes no need for cleaning or handling missing values.
@@ -118,11 +118,5 @@ Being approved or rejected for a credit card is considerd as a measure of a cust
 <img src="https://github.com/user-attachments/assets/8917ddac-b9eb-4bc4-80a9-9bb6fdc9b76b" width="500">
 #### Optimizing model
 With the Accuracy value 0.96, which means the predict value has 96% probability to equal to actual value. Therefore, we don't need to optimize the model
-## Apriori algorithm
-### Logic of Apriori
-
-### Data preparation
-
-### Modelling
-# Appendix
-tổng hợp lại những nguồn tài liệu tham khảo có sử dụng trong bài
+### Suggestion
+Based on the predict result of CART model, if the user is predicted to belong to the Potential customer group (i.e., those who have been approved for a credit card), the system will automatically suggest financial products with high value and stringent approval conditions for them, such as credit cards and personal loans. On the other hand, if the user is predicted to belong to the Risky customer group (i.e., credit card applications are rejected), they will be suggested products with low value and simple approval conditions, such as payment cards. This helps users to register for products that match their financial capabilities, reducing the rate of rejected applications.
