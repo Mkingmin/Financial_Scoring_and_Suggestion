@@ -94,24 +94,30 @@ As analyzed in [Section 1.3](https://github.com/Mkingmin/financial-scoring-mock-
 <br> _Completed Double Diamond framework. Read details [here]()_
 # Executive plan
 ## Technology (machine learning algorithms that are employed)
-- Applying two algorithms: Decision tree (CART (Classification and Regression Tree) in particular) and Apriori algorithm
-- Objectives of each algorithm: CART (Classification and Regression Tree) is used to evaluate financial capability of customers based in the specific criteria; while Apriori algorithm is used to automated suggest relevant financial products by creating "itemset" of products and financial score.
+- **Applying two algorithms**: Decision tree (CART (Classification and Regression Tree) in particular) and Apriori algorithm
+- **Objectives of each algorithm**: CART (Classification and Regression Tree) is used to evaluate financial capability of customers based in the specific criteria; while Apriori algorithm is used to automated suggest relevant financial products by creating "itemset" of products and financial score.
 ## CART (Classification and Regression Tree) algorithm
 ### Data preparation
-Trình bày rằng đây là data sample lấy từ nguồn nào (dẫn link nguồn)? Và, vì là data sample cho nên đã được xử lý sẵn, không cần xử lý thêm => gửi lời cảm ơn, lòng biết ơn đến người, tổ chức đã cung cấp dataset này => lý do chọn dataset này là vì nó thỏa mãn được các trường tương thích với các yếu tố ảnh hưởng đến việc đánh giá khả năng tài chính của user
-<br> thêm hình ảnh head của dataset => overall description
-<br> Data được chia thành training set và test set bằng cách nào? => trình bày ra
+Dataset that has been employed in that model is the sample dataset about credit card which includes in Econometric Analysis book (check out for more about Econometric Analysis book [here](https://archive.org/details/econometricanaly0000gree_f5q0/mode/2up)). The reason I choose that dataset to train and test the CART model is its fit with the business logic. Because the dataset is sample dataset, so it's clean and makes no need for cleaning or handling missing values.
+<br> <br> `df= pd.read_csv('AER_credit_card_data.csv')
+df.head()`
+<br><br> ![image](https://github.com/user-attachments/assets/5c86140b-d0d1-4628-a7c2-79257fc6a2dc)
 ### Modelling
 Being approved or rejected for a credit card is considerd as a measure of a customer's financial capability, because credit cards have the highest approval standards and also have the highest rejected rate.
 ![image](https://github.com/user-attachments/assets/079b98a6-d60a-46b6-87a6-68808f417051)
 <br> _Business logic of CART model_
 #### Building CART model
-- Feature selection
-<br> Trình bày kết quả visualize của model ra _(note: đối với dạng model này, sử dụng Gini index)_ => đâu là feature (feature selection) => chọn ra những biến có ảnh hưởng đến target variable, đâu là target variable + trình bày cách thức mà Gini ratio phân chia các node
+**- Target variable:** 'card' - whether a customer is approved for a credit card or not
+<br> **- Feature selection:** 'reports', 'age', 'income', 'share', 'expenditure', 'owner', 'selfemp', 'majorcards', 'active' is the list of features that impact credit card approval rates for customers
+<br> ![decision_tree_plot](https://github.com/user-attachments/assets/6245a14e-bc5b-4323-94ca-e948256a89d6)
+<br> _Visualization of model_
+<br> That model use Gini ratio as the Attribute Selection Measures, which measures the impurity of the node
 #### Evaluating model
-- Thực hiện evaluate => tính độ chính xác
+`print("Accuracy:",metrics.accuracy_score(y_test, y_pred))`
+<br><br>
+<img src="https://github.com/user-attachments/assets/8917ddac-b9eb-4bc4-80a9-9bb6fdc9b76b" width="500">
 #### Optimizing model
-- Improve nếu cần 
+With the Accuracy value 0.96, which means the predict value has 96% probability to equal to actual value. Therefore, we don't need to optimize the model
 ## Apriori algorithm
 ### Logic of Apriori
 
