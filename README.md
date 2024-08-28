@@ -117,7 +117,7 @@ Being approved or rejected for a credit card is considerd as a measure of a cust
 #### Evaluating model
 `print("Accuracy:",metrics.accuracy_score(y_test, y_pred))`
 <br><br>
-<img src="https://github.com/user-attachments/assets/8917ddac-b9eb-4bc4-80a9-9bb6fdc9b76b" width="500">
+<img src="https://github.com/user-attachments/assets/6cf8f377-5e7c-4547-8d49-48abb114a621" width="500">
 #### Optimizing model
 With the Accuracy value 0.96, which means the predict value has 96% probability to equal to actual value. Therefore, we don't need to optimize the model
 ### Suggestion
