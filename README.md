@@ -108,9 +108,10 @@ Being approved or rejected for a credit card is considerd as a measure of a cust
 <br> _Business logic of CART model_
 #### Building CART model
 **- Target variable:** 'card' - whether a customer is approved for a credit card or not
-<br> **- Feature selection:** 'reports', 'age', 'income', 'share', 'expenditure', 'owner', 'selfemp', 'majorcards', 'active' is the list of features that impact credit card approval rates for customers
+<br> **- Feature selection:** 'reports', 'income', 'share', 'expenditure', 'owner', 'selfemp', 'majorcards', 'active' is the list of features that impact credit card approval rates for customers. The features were chosen based on their correlation coefficient with the target variable, with a threshold of 0.05 or higher.
+<br> ![image](https://github.com/user-attachments/assets/0aec1bbb-68de-4e7a-9db3-9dc39aec6e5f)
 <br> Model building and visualizing
-<br> ![decision_tree_plot](https://github.com/user-attachments/assets/6245a14e-bc5b-4323-94ca-e948256a89d6)
+<br> ![decision_tree_plot](https://github.com/user-attachments/assets/5452f752-eaa4-4c95-a287-3d14d99bef0c)
 <br> _Visualization of model_
 <br> That model use Gini ratio as the Attribute Selection Measures, which measures the impurity of the node
 #### Evaluating model
