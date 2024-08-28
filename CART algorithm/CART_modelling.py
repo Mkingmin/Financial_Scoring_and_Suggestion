@@ -24,8 +24,15 @@ df['owner']= df['owner'].map(d)
 d= {'yes': 1, 'no': 0}
 df['selfemp']= df['selfemp'].map(d)
 
+#calculate correlation coefficient
+correlation_matrix = df.corr()
+
+# Extract correlation coefficients with the target variable 'Go'
+correlation_with_target = correlation_matrix['card'].drop('card')
+correlation_with_target
+
 #split dataset in features and target variable => Feature selection
-feature= ['reports', 'age', 'income', 'share', 'expenditure', 'owner', 'selfemp', 'majorcards', 'active']
+feature= ['reports', 'income', 'share', 'expenditure', 'owner', 'selfemp', 'majorcards', 'active']
 X= df[feature] #features
 y= df['card'] #target variable
 
