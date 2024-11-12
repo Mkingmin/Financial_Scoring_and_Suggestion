@@ -1,59 +1,57 @@
 #import necessary libraries
 import pandas as pd
+import numpy as np
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
-from sklearn.tree import export_graphviz
-from io import StringIO
-from IPython.display import Image 
-from sklearn.datasets import load_iris  
-import matplotlib.pyplot as plt  
+import matplotlib.pyplot as plt
 from sklearn import tree
+import seaborn as sns
 
-#loading data
-df= pd.read_csv('AER_credit_card_data.csv')
-df.head()
+#create function for CART modeling
+def cart_modeling(data, target):
+    #load data
+    df = pd.read_csv(data)
+    #convert non-numeric data into numeric type
+    d = {'yes': 1, 'no': 0}
+    df= df.apply(lambda col: col.map(d) if col.dtypes == 'object' else col)
+    
+    #calculate correlation
+    corr_matrix = df.corr()
+    #create a mask
+    mask = np.triu(np.ones_like(corr_matrix, dtype=bool))
+    #set up plot
+    fig, ax = plt.subplots(figsize=(10,6))
+    sns.heatmap(corr_matrix, mask=mask, cmap='coolwarm', ax=ax)
+    plt.savefig('heatmap_of_correlation', format='png', dpi=600)
 
-#convert non-numerical data into numerical data
-d= {'yes': 1, 'no': 0}
-df['card']= df['card'].map(d)
+    #features selection
+    threshold = 0.05
+    feature= []
+    for col in corr_matrix.abs().columns:
+        if any(corr_matrix[col].abs().drop(col) >= threshold):
+            feature.append(col)
+    X = df[feature] #features
+    y = df[target] #target variable
 
-d= {'yes': 1, 'no': 0}
-df['owner']= df['owner'].map(d)
+    #split dataset into train set and test set
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=1)
+    
+    #train model
+    #create a decision tree classifer object
+    clf = DecisionTreeClassifier()
+    #train classifer
+    clf = clf.fit(X_train,y_train)
+    #predict the respone for test dataset
+    y_pred = clf.predict(X_test)
 
-d= {'yes': 1, 'no': 0}
-df['selfemp']= df['selfemp'].map(d)
+    #evaluate model
+    print("Accuracy:", metrics.accuracy_score(y_test, y_pred)) #MSE value
 
-#calculate correlation coefficient
-correlation_matrix = df.corr()
+    #visualization of tree
+    fig, ax = plt.subplots(figsize=(10,6))
+    tree.plot_tree(clf, feature_names=feature, class_names=['1', '0'], filled=True)
+    plt.savefig('decision_tree_plot.png', format='png', dpi=600)
 
-# Extract correlation coefficients with the target variable 'Go'
-correlation_with_target = correlation_matrix['card'].drop('card')
-correlation_with_target
-
-#split dataset in features and target variable => Feature selection
-feature= ['reports', 'income', 'share', 'expenditure', 'owner', 'selfemp', 'majorcards', 'active']
-X= df[feature] #features
-y= df['card'] #target variable
-
-#split dataset into training set and test set
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=1) # 70% training and 30% test
-
-# Create Decision Tree classifer object
-clf = DecisionTreeClassifier()
-
-# Train Decision Tree Classifer
-clf = clf.fit(X_train,y_train)
-
-#Predict the response for test dataset
-y_pred = clf.predict(X_test)
-
-#Evaluate the model
-print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
-
-#visualize the result 
-plt.figure(figsize=(10, 8))  
-tree.plot_tree(clf, feature_names=feature, class_names=['1', '0'], filled=True)  
-
-#save the plot as a image
-plt.savefig('decision_tree_plot.png', format='png', dpi=600)
+    #return heatmap plot and model visualization
+    return fig, ax
